@@ -1,6 +1,5 @@
 # What image do yhou want to start building on?
 FROM adoptopenjdk/openjdk14
-# ENV ??
 
 # Make a folder in your image where your app's souce code can live
 RUN mkdir -p /src/app
@@ -18,4 +17,4 @@ COPY . /src/app
 EXPOSE 8080
 
 # How do you start your app?
-CMD ["java", "-jar", "ard2.jar"]
+# CMD ["java", "-jar", "ard2.jar"]

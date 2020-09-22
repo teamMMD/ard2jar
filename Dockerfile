@@ -17,4 +17,4 @@ COPY . /src/app
 EXPOSE 8080
 
 # How do you start your app?
-# CMD ["java", "-jar", "ard2.jar"]
+# CMD ["java", "-jar", "ard2demo.jar"]
